@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd0dfba1-e928-4d34-b13d-5e2bb7b5a4e8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Libs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Print.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Range.java" />
-      <change type="DELETED" beforePath="C:\Users\Dmitry\Documents\GitHub\Test\NewIdea\.idea\libraries\lib.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ForEachInt.java" afterPath="$PROJECT_DIR$/src/ForEachInt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewIdea.iml" afterPath="$PROJECT_DIR$/NewIdea.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ReflectionTest.java" afterPath="$PROJECT_DIR$/src/ReflectionTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NewIdea.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bd0dfba1-e928-4d34-b13d-5e2bb7b5a4e8" time="1356468912542" ignored="false" />
+    <file path="/Dummy.txt" changelist="bd0dfba1-e928-4d34-b13d-5e2bb7b5a4e8" time="1356469036713" ignored="false" />
     <file path="/CommaOperator.java" changelist="bd0dfba1-e928-4d34-b13d-5e2bb7b5a4e8" time="1356377235757" ignored="false" />
     <file path="/ForEachInt.java" changelist="bd0dfba1-e928-4d34-b13d-5e2bb7b5a4e8" time="1356464830748" ignored="false" />
     <file path="/fragment.java" changelist="bd0dfba1-e928-4d34-b13d-5e2bb7b5a4e8" time="1356464946905" ignored="false" />
@@ -660,7 +652,11 @@
       <created>1356377292090</created>
       <updated>1356377292090</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="foreachint">
+      <created>1356469044375</created>
+      <updated>1356469044375</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -701,7 +697,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24903475" sideWeight="0.6735254" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32647464" sideWeight="0.49227798" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32647464" sideWeight="0.49227798" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.494852" order="1" side_tool="false" content_ui="tabs" />
@@ -747,7 +743,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="commaoperator" />
+    <option name="LAST_COMMIT_MESSAGE" value="foreachint" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -763,6 +759,7 @@
     <MESSAGE value="Second" />
     <MESSAGE value="Rejected commit: Default" />
     <MESSAGE value="commaoperator" />
+    <MESSAGE value="foreachint" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
