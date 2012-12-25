@@ -1,5 +1,5 @@
 package Test.NewIdea.src;
-
+import java.io.*;
 /**
  * Created with IntelliJ IDEA.
  * User: Dmitry
@@ -7,6 +7,7 @@ package Test.NewIdea.src;
  * Time: 19:52
  * To change this template use File | Settings | File Templates.
  */
+
 import static net.mindview.util.Range.*;
 import static net.mindview.util.Print.*;
 
