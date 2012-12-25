@@ -5,6 +5,7 @@
  * Time: 23:02
  * To change this template use File | Settings | File Templates.
  */
+
 import java.util.*;
 
 public class ArrayListTest {
@@ -28,32 +29,31 @@ public class ArrayListTest {
 
 }
 
-class Employee
-{
-    public Employee(String n, double s, int year, int month, int day)
-    {
+class Employee {
+    public Employee(String n, double s, int year, int month, int day) {
         name = n;
         salary = s;
-        GregorianCalendar calendar = new GregorianCalendar(year, month -1, day);
+        GregorianCalendar calendar = new GregorianCalendar(year, month - 1, day);
         hireDay = calendar.getTime();
     }
-    public String getName()
-    {
+
+    public String getName() {
         return name;
     }
-    public double getSalary()
-    {
+
+    public double getSalary() {
         return salary;
     }
-    public Date getHireDay()
-    {
+
+    public Date getHireDay() {
         return hireDay;
     }
-    public void raiseSalary(double byPercent)
-    {
+
+    public void raiseSalary(double byPercent) {
         double raise = salary * byPercent / 100;
         salary += raise;
     }
+
     private String name;
     private double salary;
     private Date hireDay;

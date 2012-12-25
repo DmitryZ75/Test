@@ -5,6 +5,7 @@
  * Time: 23:08
  * To change this template use File | Settings | File Templates.
  */
+
 import java.util.*;
 import java.lang.reflect.*;
 
@@ -17,14 +18,12 @@ public class ReflectionTest {
 
         String name;
         if (args.length > 0) name = args[0];
-        else
-        {
+        else {
             Scanner in = new Scanner(System.in);
             System.out.println("Ââåäèòå èìÿ êëàññà (íàïðèìåð java.util.Date:");
             name = in.next();
         }
-        try
-        {
+        try {
             Class cl = Class.forName(name);
             Class supercl = cl.getSuperclass();
             String modifiers = Modifier.toString(cl.getModifiers());
@@ -39,19 +38,16 @@ public class ReflectionTest {
             System.out.println();
             printFields(cl);
             System.out.println("}");
-        }
-        catch (ClassNotFoundException e)
-        {
+        } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
         System.exit(0);
     }
-    public static void printConstructors(Class cl)
-    {
+
+    public static void printConstructors(Class cl) {
         Constructor[] constructors = cl.getDeclaredConstructors();
 
-        for (Constructor c : constructors)
-        {
+        for (Constructor c : constructors) {
             String name = c.getName();
             System.out.print("   ");
             String modifiers = Modifier.toString(c.getModifiers());
@@ -60,8 +56,7 @@ public class ReflectionTest {
 
             Class[] paramTypes = c.getParameterTypes();
 
-            for (int j=0; j < paramTypes.length; j++)
-            {
+            for (int j = 0; j < paramTypes.length; j++) {
                 if (j > 0) System.out.print(",  ");
                 System.out.print(paramTypes[j].getName());
             }
@@ -70,12 +65,10 @@ public class ReflectionTest {
         }
     }
 
-    public static void printMethods(Class cl)
-    {
+    public static void printMethods(Class cl) {
         Method[] methods = cl.getDeclaredMethods();
 
-        for (Method m : methods)
-        {
+        for (Method m : methods) {
             Class retType = m.getReturnType();
             String name = m.getName();
 
@@ -86,8 +79,7 @@ public class ReflectionTest {
 
             Class[] paramTypes = m.getParameterTypes();
 
-            for (int j=0; j < paramTypes.length; j++)
-            {
+            for (int j = 0; j < paramTypes.length; j++) {
                 if (j > 0) System.out.print(",  ");
                 System.out.print(paramTypes[j].getName());
             }
@@ -96,12 +88,10 @@ public class ReflectionTest {
         }
     }
 
-    public static void printFields(Class cl)
-    {
+    public static void printFields(Class cl) {
         Field[] fields = cl.getDeclaredFields();
 
-        for (Field f : fields)
-        {
+        for (Field f : fields) {
             Class type = f.getType();
             String name = f.getName();
 

@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd0dfba1-e928-4d34-b13d-5e2bb7b5a4e8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ForEachFloat.java" />
+      <change type="DELETED" beforePath="C:\Users\Dmitry\Documents\GitHub\Test\NewIdea\.idea\libraries\Java.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NewIdea/ArrayListTest.class" afterPath="$PROJECT_DIR$/out/production/NewIdea/ArrayListTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NewIdea/Employee.class" afterPath="$PROJECT_DIR$/out/production/NewIdea/Employee.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NewIdea/ReflectionTest.class" afterPath="$PROJECT_DIR$/out/production/NewIdea/ReflectionTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArrayListTest.java" afterPath="$PROJECT_DIR$/src/ArrayListTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CommaOperator.java" afterPath="$PROJECT_DIR$/src/CommaOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewIdea.iml" afterPath="$PROJECT_DIR$/NewIdea.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ReflectionTest.java" afterPath="$PROJECT_DIR$/src/ReflectionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NewIdea.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bd0dfba1-e928-4d34-b13d-5e2bb7b5a4e8" time="1356364729214" ignored="false" />
-    <file path="/CommaOperator.java" changelist="bd0dfba1-e928-4d34-b13d-5e2bb7b5a4e8" time="1356364700319" ignored="false" />
+    <file path="/Dummy.txt" changelist="bd0dfba1-e928-4d34-b13d-5e2bb7b5a4e8" time="1356449225261" ignored="false" />
+    <file path="/CommaOperator.java" changelist="bd0dfba1-e928-4d34-b13d-5e2bb7b5a4e8" time="1356377235757" ignored="false" />
+    <file path="/ForEachInt.java" changelist="bd0dfba1-e928-4d34-b13d-5e2bb7b5a4e8" time="1356448566083" ignored="false" />
+    <file path="/fragment.java" changelist="bd0dfba1-e928-4d34-b13d-5e2bb7b5a4e8" time="1356448743316" ignored="false" />
+    <file path="/ForEachFloat.java" changelist="bd0dfba1-e928-4d34-b13d-5e2bb7b5a4e8" time="1356450432146" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,19 +92,25 @@
       <file leaf-file-name="ReflectionTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ReflectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="11" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommaOperator.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CommaOperator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CommaOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="31" selection-start="315" selection-end="315" vertical-scroll-proportion="0.36717063">
+            <state line="15" column="18" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForEachFloat.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ForEachFloat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="61" selection-start="484" selection-end="484" vertical-scroll-proportion="0.63793105">
               <folding />
             </state>
           </provider>
@@ -124,6 +144,8 @@
         <option value="$PROJECT_DIR$/src/ArrayListTest.java" />
         <option value="$PROJECT_DIR$/src/ReflectionTest.java" />
         <option value="$PROJECT_DIR$/src/CommaOperator.java" />
+        <option value="$PROJECT_DIR$/src/ForEachInt.java" />
+        <option value="$PROJECT_DIR$/src/ForEachFloat.java" />
       </list>
     </option>
   </component>
@@ -181,6 +203,10 @@
               <option name="myItemId" value="NewIdea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -229,63 +255,64 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="last_opened_file_path" value="$net.mindview.util$" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="newidea" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="Downloaded.Files.Path" value="C:\Users\Dmitry\Documents\GitHub\Test\NewIdea\lib" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.lastSelected" value="preferences.pathVariables" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.ReflectionTest">
-    <configuration default="false" name="ArrayGrowTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayGrowTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="NewIdea" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ForEachFloat">
     <configuration default="false" name="ArrayListTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="NewIdea" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="false" name="ReflectionTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ReflectionTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -293,12 +320,58 @@
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CommaOperator" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="CommaOperator" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk1.7.0_07" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="NewIdea" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="C:\Users\Dmitry\Documents\GitHub\Test\NewIdea" />
+      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -310,16 +383,16 @@
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
+      <module name="NewIdea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="POLICY_FILE" value="file://$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -350,16 +423,16 @@
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
+      <module name="NewIdea" />
       <envs />
       <method />
     </configuration>
@@ -383,14 +456,48 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.ArrayGrowTest" />
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ForEachFloat" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Test.NewIdea.src.ForEachFloat" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="NewIdea" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.ForEachFloat" />
       <item index="1" class="java.lang.String" itemvalue="Application.ArrayListTest" />
       <item index="2" class="java.lang.String" itemvalue="Application.ReflectionTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CommaOperator" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.ReflectionTest" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.CommaOperator" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ArrayListTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ReflectionTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -435,7 +542,11 @@
       <created>1356364735881</created>
       <updated>1356364735881</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commaoperator">
+      <created>1356377292090</created>
+      <updated>1356377292090</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -465,21 +576,21 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.6735254" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32921812" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32784638" sideWeight="0.5006435" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3251029" sideWeight="0.4144144" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24903475" sideWeight="0.6707819" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32784638" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24903475" sideWeight="0.67215365" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32784638" sideWeight="0.494852" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.497426" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39944905" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -545,39 +656,21 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$net.mindview.util$/build.xml">
+      <antCommandLine value="" />
+      <runInBackground value="true" />
+      <targetFilters />
+      <treeView value="true" />
+      <verbose value="true" />
+      <viewClosedWhenNoErrors value="false" />
+      <expanded value="true" />
+    </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArrayListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ReflectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReflectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -591,10 +684,7 @@
     <entry file="file://$PROJECT_DIR$/src/ReflectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -608,10 +698,7 @@
     <entry file="file://$PROJECT_DIR$/src/ReflectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -625,10 +712,7 @@
     <entry file="file://$PROJECT_DIR$/src/ReflectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -641,17 +725,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReflectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="11" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$net.mindview.util$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="16" selection-start="735" selection-end="735" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$net.mindview.util$/mindview/util/Range.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="12" selection-start="365" selection-end="365" vertical-scroll-proportion="0.40215054" />
+      </provider>
+    </entry>
+    <entry file="file://$net.mindview.util$/mindview/util/Range.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="14" selection-start="118" selection-end="118" vertical-scroll-proportion="0.07311828" />
+      </provider>
+    </entry>
+    <entry file="file://$net.mindview.util$/mindview/util/Print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.14561027" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CommaOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="31" selection-start="315" selection-end="315" vertical-scroll-proportion="0.36717063">
+        <state line="15" column="18" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForEachFloat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="61" selection-start="484" selection-end="484" vertical-scroll-proportion="0.63793105">
           <folding />
         </state>
       </provider>
@@ -685,6 +795,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>net</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -696,6 +807,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -730,7 +842,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Java</last-edited>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
